@@ -40,7 +40,7 @@ namespace WebApplication1
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection1();
+            app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
